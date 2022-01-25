@@ -1,0 +1,41 @@
+
+
+#all{
+
+    display:grid;
+    justify-content: center;
+    
+}
+
+
+#bord{
+
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    background-color: white;
+
+}
+
+.cell{
+ width:100px ;
+ height:100px ;
+ border: solid black 2px;
+ text-align: center;
+ font-size: 80px;
+}
+
+body{
+    background-image:url('https://i.pinimg.com/564x/69/d1/76/69d17635ad2d9d0d69b5af4252804475.jpg') ;
+}
+
+p{
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+button{
+    font-size:25px ;
+    background-color: rgb(59, 114, 165);
+}
